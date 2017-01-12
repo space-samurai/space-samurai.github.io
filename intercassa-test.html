@@ -10,5 +10,15 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
+    <form id="payment" name="payment" method="post" action="https://sci.interkassa.com/" enctype="utf-8">
+	<input type="hidden" name="ik_co_id" value="58777da93b1eaf05488b4567" />
+	<input type="hidden" name="ik_pm_no" value="ID_4233" />
+	<input type="hidden" name="ik_am" value="100.00" />
+	<input type="hidden" name="ik_cur" value="UAH" />
+	<input type="hidden" name="ik_desc" value="такой то такой то товар" />
+	<input type="hidden" name="ik_pw_on" value="visa,yandexmoney,privat24" />
+	<input type="hidden" name="ik_exp" value="2017-01-13" />
+        <input type="submit" value="Pay">
+</form>
 </body>
 </html>
